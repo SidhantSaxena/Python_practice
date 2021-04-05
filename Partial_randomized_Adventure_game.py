@@ -111,7 +111,7 @@ while item==0 and hp>0:
                 hp=0
             elif n==1:
               print(f"{name} notices some dark aura coming out of it")
-              ans=input("What weapon will you use(sword/bow/sheild)")
+              ans=input("What weapon will you use(sword/bow/shield)")
               if ans=="sword":
                 print(f"{name} used his holy sword to cancel out the dark aura and cuts open the string to get the gem")
                 gob=1
@@ -120,7 +120,7 @@ while item==0 and hp>0:
                 hp=0
             else:
               print("'Poison helps to grow'")
-              ans=input("What weapon will you use(sword/bow/sheild)")
+              ans=input("What weapon will you use(sword/bow/shield)")
               if ans=="shield":
                 print(f"{name} used his unmeltable shields as a utensil to pour the poison from the ocean on the seedling")
                 print("The seedling grew and became a gem")
@@ -183,7 +183,7 @@ while item==0 and hp>0:
                   hp=0 
               else:
                 print("'Poison helps to grow'")
-                ans=input("What weapon will you use(sword/bow/sheild)")
+                ans=input("What weapon will you use(sword/bow/shield)")
                 if ans=="shield":
                   print(f"{name} used his unmeltable shield as a utensil to pour the poison from the ocean on the seedling")
                   print("The seedling grew and became a gem")
